@@ -11,6 +11,7 @@ app.use(express.urlencoded({ extended: false }));
 
 const server = http.createServer(app);
 const port = process.env.PORT || 3000;
+console.log('zzzzz');
 
 server.listen(port, () => {
   console.log('server is running ' + port);
